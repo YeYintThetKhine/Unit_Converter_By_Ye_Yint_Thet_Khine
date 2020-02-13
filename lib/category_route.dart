@@ -230,7 +230,7 @@ class _CategoryRouteState extends State<CategoryRoute> {
           ? UnitConverter(category: _defaultCategory)
           : UnitConverter(category: _currentCategory),
       backPanel: listView,
-      frontTitle: Text('Unit Converter'),
+      frontTitle: Text('Unit Converter App By YYTK'),
       backTitle: Text('Select a Category'),
     );
   }
